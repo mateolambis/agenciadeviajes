@@ -22,7 +22,7 @@
 <body>
 
 <?php
-include('navbar.php');
+include('navbarTransporte.php');
 ?>
 
       <div class="form-registrar">

@@ -25,7 +25,7 @@
 <body>
 
   <?php
-  include('navbar.php');
+  include('navbarCliente.php');
   ?>
 
   <div class="container">
