@@ -1,0 +1,106 @@
+/*body*/
+body{
+  background-color: #6B80E8;
+  background-image: url(imagenes/Fondoavion.jpg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
+
+
+/*destinos*/
+.proyectos-recientes{
+  padding: 40px;
+}
+
+.proyectos-recientes img {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}  
+
+.proyectos-contenedor{
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay{
+  transition: all 0.2 ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p{
+  font-size: 25px;
+  font-family: bold;
+  margin: 0;
+}
+
+.proyecto{
+  position: relative;
+}
+
+.proyecto:hover img{
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay{
+  opacity: 1;
+
+}
+
+.overlay .iconos-contenedor{
+  display: flex;
+}
+
+.overlay i{
+  color: black;
+  font-size: 60px;
+}
+
+.seccion-titulo{
+  font-size: 65px; 
+  padding: 15px 0; 
+  font-family:'Franklin Gothic Medium';
+}
+
+.seccion-descripcion{
+  font-size: 50px;
+  color: rgb(70, 199, 199);
+}
+
+.seccion-oscura{
+  color: white;
+  background-color: black;
+}
+
+
+.seccion-clara{
+  color:  black;
+  background-color: white;
+}
+
+.texto-blanco{
+  color: white;
+}
+
+/*fomularios*/
+.form-registrar{
+  width: 550px;
+  background: #6B80E8;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+  color: white;
+}
+
