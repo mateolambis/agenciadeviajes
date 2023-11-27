@@ -69,6 +69,8 @@ header ul li a{
 li a:hover{
   background: white;
   transition: 0.5s;
+  border-radius: 10px;
+  color: black;
 }
 
 header a:hover{
@@ -79,6 +81,7 @@ header .navbar:hover{
   background: white;
   transition: 0.5s;
   color: black;
+  border-radius: 10px;
 }
 
 
@@ -135,7 +138,7 @@ header.abajo ul li a{
         <nav>
           <ul>  
             <li>
-              <a href="Transporte.php">Transporte</a>
+              <a href="conocenos.php">Conocenos</a>
             </li>
             <li>
               <a href="Estadia.php">Estadia</a>

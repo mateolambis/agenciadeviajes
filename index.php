@@ -476,13 +476,16 @@
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
             <h6 class="text-uppercase fw-bold mb-4">
-              Servicios
+            <i class="bi bi-clock-fill"></i>
+              Horarios
             </h6>
-            <p>
-              <a href="transporte.php" class="text-reset">Transporte</a>
+            <p>           
+              lunes - Viernes <br>
+              10:00 am - 7:00 pm
             </p>
             <p>
-              <a href="estadia.php" class="text-reset">Estadia</a>
+              Sabados <br>
+              9:00 am - 5:00 pm
             </p>
           </div>
           <!-- Grid column -->
@@ -490,14 +493,15 @@
           <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contacto</h6>
+            <h6 class="text-uppercase fw-bold mb-4">
+            <i class="bi bi-telephone-fill"></i>  
+            Contacto</h6>
             <p>
               <i class="bi bi-house-door-fill"></i>
               <i class="fas fa-home me-3"></i>El santuario, Antioquia
             </p>
             <p>
               <i class="bi bi-envelope-fill"></i>
-              <i class="fas fa-envelope me-3"></i>
               mateolambisnacional@gmail.com
             </p>
             <p>
