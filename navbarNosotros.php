@@ -16,15 +16,16 @@ header{
   padding: 30px 20px;
   z-index: 10;
 }
-
 header.abajo{
   background: white;
   padding: 15px 20px;
 }
 
+
+
 header .navbar{
   position: relative;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 2em;
   letter-spacing: 2px;
@@ -66,29 +67,32 @@ header ul li a{
 }
 
 li a:hover{
-  background: white;
+  background: black;
   transition: 0.5s;
+  border-radius: 10px;
+  color: white;
 }
 
 header a:hover{
-  color: black;
+  color: white;
 }
 
 header .navbar:hover{
   background: white;
   transition: 0.5s;
   color: black;
+  border-radius: 10px;
 }
 
 
 .zona1{
   position: relative;
-  background: url(imagenes/personas.jpg);
+  background: url(imagenes/nosotros2.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -109,7 +113,7 @@ header .navbar:hover{
 
 .zona1 a{
   padding: 1rem 1.5rem;
-  color: black;
+  color: white;
   font-size: 1rem;
   background: #7DC3E6;
   border-radius: 20px;
@@ -130,14 +134,14 @@ header.abajo ul li a{
 
 
   <header>
-      <a href="index.php" class="navbar">Blue Sea</a>
+      <img style="width: 100px; height: 90px" src="imagenes/logo.png" alt="Logo Blue Sea">
         <nav>
           <ul>  
-            <li>
-              <a href="Transporte.php">Transporte</a>
+          <li>
+              <a href="index.php">Inicio</a>
             </li>
             <li>
-              <a href="Estadia.php">Estadia</a>
+              <a href="nosotros.php">Nosotros</a>
             </li>
             <li>
               <a href="Clientes.php">Registrar usuario</a>
@@ -146,9 +150,12 @@ header.abajo ul li a{
         </nav>
   </header> 
   <section class="zona1"><br><br><br><br>
-    <h1>El Mundo Te Espera</h1>  
-    <p>Somos tu agencia de confianza</p>
-      <a href="https://wa.me/573122960449">Cotiza tu viaje</a> 
+    <h1>Somos Blue Sea</h1>  
+    <p>Minorista en turismo</p>
+      <a href="index.php">Inicio</a> 
+  </section>
+  <section>
+
   </section>
 
   <script type="text/javascript">

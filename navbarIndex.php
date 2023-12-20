@@ -134,17 +134,14 @@ header.abajo ul li a{
 
 
   <header>
-      <a href="index.php" class="navbar">Blue Sea</a>
+      <img style="width: 100px; height: 90px" src="imagenes/logo.png" alt="Logo Blue Sea">
         <nav>
           <ul>  
             <li>
-              <a href="conocenos.php">Conocenos</a>
+              <a href="nosotros.php">Nosotros</a>
             </li>
             <li>
-              <a href="Estadia.php">Estadia</a>
-            </li>
-            <li>
-              <a href="Clientes.php">Registrar usuario</a>
+              <a href=".php">Contactanos</a>
             </li>
           </ul>
         </nav>
@@ -152,7 +149,7 @@ header.abajo ul li a{
   <section class="zona1"><br><br><br><br>
     <h1>El Mundo Te Espera</h1>  
     <p>Somos tu agencia de confianza</p>
-      <a href="https://wa.me/573122960449">Cotiza tu viaje</a> 
+      <a href="https://wa.me/573122960449">Escribenos</a> 
   </section>
 
   <script type="text/javascript">
