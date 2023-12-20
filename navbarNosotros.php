@@ -144,7 +144,7 @@ header.abajo ul li a{
               <a href="nosotros.php">Nosotros</a>
             </li>
             <li>
-              <a href="Clientes.php">Registrar usuario</a>
+              <a href=".php">Contactanos</a>
             </li>
           </ul>
         </nav>
